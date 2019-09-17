@@ -28,11 +28,19 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20em;
+    padding-bottom: 50%;
 }
 
 nav ul {
     display: flex;
+}
+
+nav ul a {
+    color: black;
+}
+
+nav ul a:hover {
+    color: white;
 }
 
 .black-logo {
@@ -115,8 +123,9 @@ figcaption {
     width: calc(100% - 1em);
     padding: .5em;
     display: block;
-    margin: 3% 0 6%;
+    margin: 3% auto 6%; /*This will keep your button centered no matter what. */
     font-size: 1.2em;
+    position: relative;
     border: 1px solid black;
     transition: .3s;
 }
@@ -204,5 +213,111 @@ footer ul li a {
     }
 
     /*gray-container*/
+    .gray-container ul li img {
+        width: 20%;
+    }
+}
 
+@media (min-width: 1024px) {
+
+    .scroll {
+        width: 1.9%;
+        animation: move 3s infinite alternate;
+
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(10px);
+        }
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .scrolldown{
+        height: 100%;
+    }
+
+    .silver-container {
+        text-align: center;
+    }
+
+    .silver-container a {
+        width: 50%;
+        font-size: 1.3em;
+    }
+
+    .dark-container img {
+        width: 30%;
+    }
+
+    /*Footer*/
+    footer img {
+        width: 20%;
+    }
+
+    .hide-mobile {
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    nav ul {
+        width: auto;
+        height: auto;
+        display: flex;
+        position: inherit;
+    }
+
+    nav ul li {
+        float: left;
+        padding: 2em 1em;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1600px) {
+    .backgroundContainer {
+        padding-bottom: 1px;
+    }
+
+    .black-logo {
+        width: 20%;
+    }
+    
+
+    nav ul li {
+        padding: 0px 1.5em 0px;
+    }
+
+    .gray-container ul li img{
+        width: 12%;
+    }
+
+    
+    .gray-container ul li p{
+        padding-left: 1em;
+    }
+
+    .dark-container ul li img{
+        width: 15%;
+    }
+
+    .container {
+        padding-top: 2%;   
+    }
+
+    footer img{
+        width: 10%;
+    }
 }
