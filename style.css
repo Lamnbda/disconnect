@@ -1,0 +1,208 @@
+/* General CSS styles*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+/* Header/Landing page */
+
+.backgroundContainer {
+    background-image: url("./assets/phone-background.png");
+    background-size: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20em;
+}
+
+nav ul {
+    display: flex;
+}
+
+.black-logo {
+    width: 40%;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.hamburger {
+    width: 1.3em;
+    margin-top: 30%;
+}
+
+/* gray container section */
+
+.gray-container {
+    background: #787875;
+    color: white;
+    width: 100%;
+    padding: 4em 0em;
+    /* 3 values refers to top, left/right, bottom. */
+}
+
+.gray-container ul li p {
+    padding: 1em 1em;
+}
+
+.gray-container ul li {
+    padding: 1em 0 1em;
+}
+
+.gray-container ul li img {
+    width: 16%;
+}
+
+/* Different section*/
+.dark-container {
+    background: #3E3E3E;
+    color: white;
+    width: 100%;
+    padding: 2em 0;
+}
+
+.dark-container figure {
+    /* The figure comes with preset margins and padding that need to be overwritten.*/
+    margin: 0;
+    padding: 0;
+}
+
+.dark-container img {
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+.dark-container li {
+    padding: 2em 0;
+}
+
+figcaption {
+    font-weight: 600;
+}
+
+/* Silver Section */
+
+.silver-container {
+    background: #D8D8D8;
+    padding: 2em 0;
+}
+
+.silver-container h3 {
+    font-size: 2em;
+}
+
+.silver-container a {
+    text-decoration: none;
+    color: black;
+    background: #E2C525;
+    width: calc(100% - 1em);
+    padding: .5em;
+    display: block;
+    margin: 3% 0 6%;
+    font-size: 1.2em;
+    border: 1px solid black;
+    transition: .3s;
+}
+
+.silver-container a:hover {
+    background: rgb(139, 122, 20);
+    transition: 0.3s;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+footer p {
+    font-size: .7em;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: .5;
+    font-size: .8em;
+}
+
+@media (min-width: 650px) {
+
+    /* NAV */
+
+    .black-logo {
+        width: 35%;
+    }
+
+    .hamburger {
+        width: 1.3em;
+    }
+
+    /* Gray container */
+
+    .gray-container ul {
+        display: flex;
+    }
+
+    .gray-container ul li img {
+        width: 25%;
+    }
+
+
+    /* dark container */
+    .dark-container {
+        padding-top: 4em;
+    }
+
+    .dark-container ul {
+        display: flex;
+    }
+
+    .dark-container li {
+        padding-bottom: 4em;
+    }
+
+    .dark-container img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 875px) {
+
+    /*NAV*/
+    .black-logo {
+        width: 30%;
+    }
+
+    .hamburger {
+        width: 1.4em;
+    }
+
+    /*gray-container*/
+
+}

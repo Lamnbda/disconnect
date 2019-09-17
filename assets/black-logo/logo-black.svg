@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="84" viewBox="0 0 400 84">
+  <g id="logo-black" transform="translate(-108 -82)">
+    <text id="Disconnected" transform="translate(108 82)" font-size="47" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="0" y="47">Disconnected</tspan></text>
+    <text id="Revisiting_lost_connections" data-name="Revisiting lost connections" transform="translate(108 161)" font-size="23" font-family="Verdana"><tspan x="0" y="0">Revisiting lost connections</tspan></text>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(472 85)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="6" height="45" stroke="none"/>
+      <rect x="1.5" y="1.5" width="3" height="42" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(483 100)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="5" height="30" stroke="none"/>
+      <rect x="1.5" y="1.5" width="2" height="27" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(493 111)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="5" height="19" stroke="none"/>
+      <rect x="1.5" y="1.5" width="2" height="16" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(503 120)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="5" height="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="2" height="7" fill="none"/>
+    </g>
+  </g>
+</svg>

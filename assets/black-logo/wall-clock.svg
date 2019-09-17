@@ -1,0 +1,12 @@
+<svg id="wall-clock" xmlns="http://www.w3.org/2000/svg" width="113.975" height="113.975" viewBox="0 0 113.975 113.975">
+  <g id="Group_4" data-name="Group 4">
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_3" data-name="Path 3" d="M97.284,16.691A56.988,56.988,0,0,0,16.691,97.284,56.988,56.988,0,0,0,97.284,16.691Zm-40.3,88.379A48.083,48.083,0,1,1,105.07,56.987,48.137,48.137,0,0,1,56.987,105.07Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_6" data-name="Group 6" transform="translate(52.535 16.918)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_4" data-name="Path 4" d="M244.9,111.617V76H236v44.521h33.836v-8.9Z" transform="translate(-236 -76)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
