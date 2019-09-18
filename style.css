@@ -32,15 +32,40 @@ header {
 }
 
 nav ul {
-    display: flex;
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right:0;
+    text-align: left; 
+    background: rgb(36,31,34);
+    height: 100%;
+    z-index: 10;
+    padding-top: 3em;
 }
 
-nav ul a {
-    color: black;
-}
-
-nav ul a:hover {
+nav ul li a{
     color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background: rgb(52, 59, 63);
+}
+
+nav ul li a:hover{
+    background: rgb(65, 73, 78);
+}
+
+.exit-btn{
+margin-bottom: 1em;
+margin-top: -1.3em;
+text-align: right;
+padding: 0 1.4em;
+}
+
+.exit-btn img {
+    width: 1em;
+    cursor: pointer;
 }
 
 .black-logo {
@@ -220,11 +245,46 @@ footer ul li a {
 
 @media (min-width: 1024px) {
 
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    nav ul {
+        width: auto;
+        height: auto;
+        display: flex;
+        position: inherit;
+        background: transparent;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a{
+        color: black;
+        background: none;
+        text-align: right;
+        padding: 1em 2em;
+    }
+
+    nav ul li a:hover{
+        background: none;
+    }
+
     .scroll {
         width: 1.9%;
         animation: move 3s infinite alternate;
-
     }
+
+
+
 
     @keyframes move {
         0% {
@@ -268,22 +328,7 @@ footer ul li a {
         margin: 0 auto 13% auto;
     }
 
-    .hide-desktop {
-        display: none;
-    }
 
-    nav ul {
-        width: auto;
-        height: auto;
-        display: flex;
-        position: inherit;
-    }
-
-    nav ul li {
-        float: left;
-        padding: 2em 1em;
-        text-align: right;
-    }
 }
 
 @media (min-width: 1600px) {
@@ -307,10 +352,19 @@ footer ul li a {
     
     .gray-container ul li p{
         padding-left: 1em;
+        margin-left:3em;
+        margin-right:3em; 
+        font-size: 1.2em;
     }
 
     .dark-container ul li img{
-        width: 15%;
+        width: 21%;
+    }
+
+    .dark-container ul li blockquote {
+        font-size: 1.3em;
+        margin-left: 3em;
+        margin-right: 3em;
     }
 
     .container {
@@ -321,3 +375,4 @@ footer ul li a {
         width: 10%;
     }
 }
+
